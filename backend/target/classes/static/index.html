@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Chat Room</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+  <link href="main.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@stomp/stompjs@7.0.0/bundles/stomp.umd.min.js"></script>
+  <script src="app.js"></script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat Window</title>
+
+</head>
+
+<body>
+  <div id="app">
+    <div id="sidebar">
+      <div id="sidetitle">Your Chats</div>
+      <div id="contact-list">
+      </div>
+      <button onclick="home()" class="bottom">Go Back to Home</button>
+    </div>
+    <div id="chat-window">
+      <div id="chattop">
+        <img id="item-image" class="itmimg" src="" />
+        <div id="chat-header">
+          <div id="chat-head-name"></div>
+          <div id="type2"></div>
+        </div>
+      </div>
+      <div id="chat-area">
+      </div>
+      <div id="message-input-container">
+        <div class="typingseparate">
+          <input id="message" type="text" class="message-input" placeholder="Type a message..." />
+        </div>
+        <button type="submit" id="send" class="send-button">Send</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
