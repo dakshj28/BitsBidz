@@ -1,0 +1,365 @@
+.item-box {
+  background-color: black;
+  height: auto;
+  min-height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  padding-top: 75px;
+  padding-bottom: 25px;
+}
+
+.item-box .item-body {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+}
+
+.item-box .item-description {
+  border: 5px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+  left: 0;
+  position: relative;
+  width: 100%;
+
+}
+
+.item-box .item-title {
+  color: #b9ffe1;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  left: 15px;
+  top: 15px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.item-box .item-text-wrapper {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.item-box .item-product {
+  border: 5px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+  align-items: center;
+}
+
+.item-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.item-flex-container-bitscoins {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.item-flex-item-side-images {
+  width: 15%;
+  padding: 25px;
+}
+
+.item-box .item-sideimg {
+  width: 100%;
+  margin-top: 21px;
+  position: relative;
+}
+
+.item-flex-item-main-images {
+  width: 45%;
+  padding: 15px;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.item-box .item-mainimg {
+  width: 100%;
+  position: relative;
+}
+
+.item-flex-item-attributes {
+  width: 45%;
+  padding: 15px;
+  padding-top: 0;
+  padding-bottom: 50px
+}
+
+.item-box .item-item-head {
+  color: #00ffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  margin-top: 0;
+  text-wrap: wrap;
+  word-wrap: break-word;
+}
+
+.item-box .item-item-name {
+  color: #00ffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+#flex-container-props {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  margin-top: -10px;
+}
+
+#flex-container-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+
+.item-flex-item-2 {
+  width: 50%;
+  display: block;
+}
+
+.item-flex-item-3 {
+  width: 32%;
+}
+
+
+.item-flex-item-coinss {
+  width: 27%;
+}
+
+.item-flex-item-4 {
+  width: 22%;
+}
+
+#flex-container-counter {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.item-text-wrapper-coins {
+  color: #fbcf3a;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-left: 5px;
+  font-size: 30px;
+}
+
+.item-box .item-counter {
+  border: 5px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+  width: 100%;
+  height: 65px;
+  margin-top: 10px;
+}
+
+.item-box .item-counter1 {
+  border: 5px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to right, rgb(25, 0, 254), rgb(0, 165, 249)) 1;
+  width: 100%;
+  height: 65px;
+  margin-top: 10px;
+}
+
+.item-box .item-counter-buy-now {
+  border: 5px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to right, rgb(25, 0, 254), rgb(0, 165, 249)) 1;
+  width: 100%;
+  height: 60px;
+}
+
+.item-box .item-bidval {
+  width: 100%;
+  height: 50px;
+}
+
+.item-box .item-text-wrapper-counter {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.item-box .item-text-wrapper-count {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.item-box .item-text-wrapper-count-price {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.item-box .item-text-wrapper-buy-now {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: left;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: relative;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.item-box .item-text-wrapper-buy-now-val {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: left;
+  margin-left: 10px;
+}
+
+#flex-container-buy-now {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.item-coins {
+  height: 80px;
+}
+
+.item-coins-buy-now {
+  height: 100px;
+}
+
+.item-box .item-buynowval {
+  width: 100%;
+  height: 50px;
+}
+
+.item-flex-item-coinss-buy-now {
+  width: 27%;
+}
+
+.item-bitscoins-buy-now {
+  height: 80%;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: relative;
+}
+
+.item-test {
+  display: inline;
+}
+
+.item-test2 {
+  vertical-align: middle;
+}
+
+.item-coins-class {
+  height: 60%;
+}
+
+.item-coinsss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item-button-cursor {
+  cursor: pointer;
+}
+
+.item-box .item-chatwb {
+  width: 9%;
+  height: 9%;
+  position: relative;
+  left: 93%;
+  cursor: pointer;
+}
+
+.item-image-button {
+  cursor: pointer;
+}

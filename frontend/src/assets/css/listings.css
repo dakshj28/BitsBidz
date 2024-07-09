@@ -1,0 +1,126 @@
+.listings-box {
+  background-color: black;
+  height: auto;
+  min-height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  padding-top: 75px;
+  padding-bottom: 25px;
+}
+
+.listings-box .listings-body {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+}
+
+.listings-box .listings-comp {
+  border: 3px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+  align-items: center;
+}
+
+.listings-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.listings-flex-item-image {
+  width: 16%;
+}
+
+.listings-flex-item-details {
+  width: 78%;
+  padding-right: 50px;
+}
+
+.listings-box .listings-item-head {
+  color: #00ffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#flex-container-props {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.listings-box .listings-text-wrapper {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  /* padding: 20px; */
+  padding-left: 30px;
+  padding-right: 30px;
+  overflow: hidden;
+}
+
+
+.listings-coins-class {
+  height: 40%;
+  position: relative;
+  margin: 10px;
+}
+
+.listings-coinsss {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+}
+
+.listings-flex-item-coinss {
+  /* width: 33%; */
+  height: 100px;
+}
+
+
+.listings-box .listings-text-wrapper-buy-now-text {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: left;
+  text-overflow: clip;
+  padding: 10px;
+}
+
+.listings-box .listings-text-wrapper-buy-now-val {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: right;
+}
+
+.listings-head {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}

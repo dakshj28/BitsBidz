@@ -1,0 +1,251 @@
+.register-box {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.register-box .register-body {
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+    align-items: center;
+}
+
+.register-register {
+    margin-bottom: 40px;
+    }
+
+#register-flex-container {
+
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    margin: 0;
+}
+
+#register-flex-container-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+.register-box .register-flex-1{
+    display: flex;
+    flex-direction: column;
+    left: 47%;
+    position: relative;
+    top: -10%;
+}
+.register-flex-item-2 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.register-flex-item-3 {
+    width: 50%;
+    top: 3%;
+    margin: 15px;
+}
+
+.register-flex-item-4 {
+    width: 24%;
+}
+
+.register-flex-item-input {
+    width: 91%;
+}
+
+.register-flex-item-button {
+    width: 9%;
+}
+
+.register-flex-item-coins {
+    width: 20%;
+    min-width: 375px;
+}
+
+.register-flex-item-add-coins {
+    width: 80%;
+}
+
+.register-box .register-text-wrapper {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    left: 0%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+
+}
+.register-box .register-regtex{
+    top: -4%;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    left: 42%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    align-items: center;
+}
+.register-box .register-text-wrapper-count {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    font-weight: 600;
+    left: 10%;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.register-text-input-name {
+    border: 5px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+    height: 50px;
+    width: 100%;
+    left: 0%;
+    background-color: black;
+    width: 100%;
+    color: #ffffffbf;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+    margin-top: 15px;
+}
+
+.register-coins {
+    height: 100px;
+}
+
+.register-yes {
+    height: 100%;
+    position: relative;
+}
+
+
+#register-flex-container-counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+}
+
+.register-text-wrapper-coins {
+    color: #fbcf3a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 65px;
+}
+
+.register-box .register-counter {
+    border: 5px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to right, rgb(25, 0, 254), rgb(0, 165, 249)) 1;
+    width: 100%;
+    height: 100px;
+}
+
+.register-box .register-text-wrapper-counter {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 500%;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.register-inline {
+    display: flex;
+    border: 5px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+    height: 50px;
+    width: 100%;
+    left: 0%;
+    background-color: black;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.register-text-input-button-left {
+    width: 100%;
+    background-color: black;
+    color: #ffffffbf;
+    font-family: 'Inter', sans-serif;
+    font-size: 120%;
+    font-weight: 400;
+    text-align: left;
+    outline: none;
+}
+
+.register-text-input-button-right {
+    width: 100%;
+    background-color: black;
+    color: #ffffffbf;
+    font-family: 'Inter', sans-serif;
+    font-size: 125%;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.register-submit{
+    width: 100%;
+    border: 5px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+}
+.register-submit-text-wrapper{
+    padding: 8px;
+    background-color: black;
+    color: #ffffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 125%;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.register-flex-submit{
+    position: relative;
+    margin-top: 5%;
+    left: 47%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

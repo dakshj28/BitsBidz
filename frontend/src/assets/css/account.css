@@ -1,0 +1,248 @@
+.account-box {
+    background-color: black;
+    height: auto;
+    min-height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    padding-top: 75px;
+    padding-bottom: 25px;
+}
+
+.account-box .account-body {
+    height: 100%;
+    width: 100%;
+    padding: 50px;
+}
+
+.account-details {
+    margin-bottom: 40px;
+}
+
+#flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+#flex-container-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+.account-flex-item-2 {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.account-flex-item-3 {
+    width: 25%;
+    margin-left: 1%;
+}
+
+.account-flex-item-4 {
+    width: 24%;
+}
+
+.account-flex-item-input {
+    width: 91%;
+}
+
+.account-flex-item-button {
+    width: 9%;
+}
+
+.account-flex-item-coins {
+    width: 20%;
+    min-width: 475px;
+    margin-left: 1%;
+}
+
+.account-flex-item-add-coins {
+    width: 80%;
+}
+
+.account-box .account-text-wrapper {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    top: 0;
+}
+
+.account-box .account-text-wrapper-count {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
+    font-weight: 600;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.account-text-input-name {
+    border: 5px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+    height: 50px;
+    width: 100%;
+    left: 0%;
+    background-color: black;
+    width: 100%;
+    color: #ffffffbf;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    outline: none;
+    margin-top: 15px;
+}
+
+.account-coins {
+    top: 5%;
+    height: 100px;
+}
+
+.account-yes {
+    height: 60%;
+    top: 10%;
+    position: relative;
+}
+
+
+#flex-container-counter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+}
+
+.account-text-wrapper-coins {
+    color: #fbcf3a;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-left: 20px;
+    font-size: 65px;
+}
+
+.account-box .account-counter {
+    border: 5px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to right, rgb(25, 0, 254), rgb(0, 165, 249)) 1;
+    width: 100%;
+    height: 100px;
+}
+
+.account-box .account-text-wrapper-counter {
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 500%;
+    font-weight: 600;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.account-inline {
+    display: flex;
+    border: 5px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+    height: 50px;
+    width: 100%;
+    left: 0%;
+    background-color: black;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.account-text-input-button-left {
+    width: 80%;
+    background-color: black;
+    color: #ffffffbf;
+    font-family: 'Inter', sans-serif;
+    font-size: 120%;
+    font-weight: 400;
+    text-align: left;
+    outline: none;
+}
+
+.account-text-input-button-right {
+    width: 20%;
+    background-color: black;
+    color: #ffffffbf;
+    font-family: 'Inter', sans-serif;
+    font-size: 125%;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 0px;
+    cursor: pointer;
+}
+.text-account-message{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    border: 2px solid;
+    background-color: black;
+    border-color: transparent;
+    border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+}
+.account-box .account-description {
+    top: 5%;
+    height : auto;
+    border: 5px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+    position: relative;
+    width: 100%;
+
+}
+  .account-box .account-title {
+    color: #b9ffe1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0;
+    padding: 20px;
+    line-height: normal;
+    position: relative;
+    align-items: center;
+    text-align: center;
+  }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

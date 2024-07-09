@@ -1,0 +1,62 @@
+.footer-main {
+  width: 100%;
+  background: black;
+  overflow-y: hidden;
+  opacity: 100%;
+  position: fixed;
+  z-index: 101;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-top {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 5%;
+  width: 100%;
+  position: fixed;
+  background: black;
+  padding-top: 10px;
+  border-top: 2px solid transparent;
+  border-image: linear-gradient(to right, rgb(0, 254, 144) 0%, rgb(0, 165, 249) 100%);
+  border-image-slice: 1;
+}
+
+.footer-top-font {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(to right, rgb(0, 254, 144) 0%, rgb(0, 165, 249) 100%);
+  background-clip: text;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.footer-main .footer-chat {
+  height: 45px;
+  width: 45px;
+  left: 2.5px;
+  top: 2.5px;
+  position: relative;
+  border-radius: 50%;
+  display: flex;
+  background: black;
+  padding: 14%;
+  cursor: pointer;
+}
+
+.footer-main .footer-outer-chat {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  z-index: 100;
+  background-image: linear-gradient(0.25turn, rgb(0, 254, 144) 0%, rgb(0, 165, 249) 100%);
+  border-radius: 50%;
+}

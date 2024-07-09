@@ -1,0 +1,126 @@
+.items-box {
+  background-color: black;
+  height: auto;
+  min-height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+  padding-top: 75px;
+  padding-bottom: 25px;
+}
+
+.items-box .items-body {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+}
+
+.items-box .items-comp {
+  border: 3px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+  border-radius: 50px;
+  align-items: center;
+}
+
+.items-flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  padding: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.items-flex-item-image {
+  width: 16%;
+}
+
+.items-flex-item-details {
+  width: 78%;
+  padding-right: 50px;
+}
+
+.items-box .items-item-head {
+  color: #00ffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+#flex-container-props {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.items-box .items-text-wrapper {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  line-height: normal;
+  position: relative;
+  text-align: center;
+  margin: 0;
+  /* padding: 20px; */
+  padding-left: 30px;
+  padding-right: 30px;
+  overflow: hidden;
+}
+
+
+.items-coins-class {
+  height: 40%;
+  position: relative;
+  margin: 10px;
+}
+
+.items-coinsss {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+}
+
+.items-flex-item-coinss {
+  /* width: 33%; */
+  height: 100px;
+}
+
+
+.items-box .items-text-wrapper-buy-now-text {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: left;
+  text-overflow: clip;
+}
+
+.items-box .items-text-wrapper-buy-now-val {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  left: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: right;
+}
+
+.items-head {
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}

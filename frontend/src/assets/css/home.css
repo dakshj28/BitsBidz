@@ -1,0 +1,83 @@
+.home-box {
+  background-color: #000000;
+  height: auto;
+  width: 100%;
+  overflow-y: hidden;
+  position: absolute;
+  padding-top: 75px;
+  padding-bottom: 25px;
+}
+
+.home-box .home-body {
+  height: 100%;
+  width: 100%;
+  padding: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.home-box .home-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+  margin: 0;
+}
+
+.home-box .home-main-left {
+  width: 62%;
+  display: block;
+  padding: 20px;
+}
+
+.home-box .home-main-right {
+  width: 38%;
+  display: block;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.home-box .home-main-img {
+  width: 100%;
+}
+
+.home-box .home-main-card {
+  width: 25%;
+  display: block;
+  border: 5px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to right, rgb(0, 254, 144), rgb(0, 165, 249)) 1;
+  margin: 1.5%;
+}
+
+.home-box .home-main-card-img {
+  width: 100%;
+  padding: 5%;
+  padding-bottom: 0;
+}
+
+.home-main-name {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+  text-align: center;
+}
+
+.home-box .home-main-socials {
+  width: 100%;
+  display: table;
+}
+
+.home-box .home-main-socials-img {
+  width: 30%;
+  margin: auto;
+  padding: 18px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#nav-dummy{
+  position: relative;
+}
